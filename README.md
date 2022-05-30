@@ -1,5 +1,6 @@
 # 安装更新运行环境（Debian系统）
 apt update -y && apt dist-upgrade -y && apt install -y curl && apt install -y socat
+
 apt-get install -y xz-utils openssl gawk file wget screen && screen -S os
 
 # 更改SSH终端中文语言
